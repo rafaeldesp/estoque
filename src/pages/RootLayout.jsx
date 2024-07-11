@@ -13,7 +13,7 @@ export default function RootLayout() {
             <div>
                 <Outlet/>
             </div>
-            <footer>
+            <footer style={{textAlign: "center", color: 'white'}}>
                 feito por rafael
             </footer>
         </>
