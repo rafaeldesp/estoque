@@ -210,3 +210,13 @@ form {
   margin: 1rem 0;
   text-align: center;
 }
+
+.formContainer {
+  overflow-x: auto;
+}
+
+@media (max-width: 865px) {
+  .button.is-primary {
+    margin-left: 12px;
+  }
+}
